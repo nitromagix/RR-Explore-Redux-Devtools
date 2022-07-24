@@ -9,7 +9,7 @@
 }
 .todo > ul {
   text-align: left;
-  padding:0
+  padding: 0;
 }
 .todo > ul > li {
   margin: 2px;
@@ -19,10 +19,13 @@
   border: 1px solid lightgrey;
   width: 100%;
 }
+.todo > ul > li > div > span {
+  margin:3px;
+}
 .todo > ul > li > div > div {
   border-left: 1px solid lightgrey;
   float: right;
   cursor: pointer;
   font-weight: bold;
-  padding:0 3px;
+  padding: 0 3px;
 }

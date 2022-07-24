@@ -10,7 +10,7 @@ function Todo() {
   const renderItems = items.map((item, index) => (
     <li key={index} >
       <div>
-        {item}
+        <span>{item}</span>
         <div onClick={() => dispatch(removeItem(index))}>X</div>
       </div>
     </li>

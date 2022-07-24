@@ -12,7 +12,7 @@ export const todoSlice = createSlice({
             return { items: [...state.items, action.payload]}
         },
         removeItem: (state, action) => {
-            console.log(action)
+            // console.log(action)
             let array = [...state.items]
             let index = action.payload
             if(index !== -1) {
